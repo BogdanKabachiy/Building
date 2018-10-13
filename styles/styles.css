@@ -1,0 +1,382 @@
+/**header{
+	background: #cecece;
+}
+main{
+
+}
+body{
+	height: 1000px;
+padding:0;
+	margin:0;
+	}
+*/
+.house{
+	width: 350px;
+	height: 400px;
+	background-color: #20B2AA;
+}
+.floor1{
+	
+    width: 161px;
+    height: 137px;
+    position: relative;
+    background: #A52A2A;
+    left: 100px;
+    bottom: 44px;
+}
+.floor2{
+	width: 161px;
+    height: 137px;
+    position: relative;
+    background: #A52A2A;
+    top: -44px;
+    left: 100px;
+	}
+.roof{
+	width: 140px;
+    height: 80px;
+    position: relative;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 48px solid chocolate;
+    top: -44px;
+    left: 75px;
+}
+.door{
+	width: 47px;
+    height: 76px;
+    background: #D2691E;
+    position: relative;
+    left: 102px;
+    top: 61px;
+
+}	
+.window1{
+    width: 122px;
+    height: 50px;
+    position: relative;
+    background: #FFFFFF;
+    top: 20px;
+    left: 21px;
+}
+.balcony{
+	width: 140px;
+    height: 50px;
+    position: relative;
+    background: #800000;
+    bottom: 80px;
+    left: 12px;
+}
+.pereg1{
+	width: 5px;
+	height: 50px;
+	position: relative;
+	background:#8B4513;
+	bottom: 30px;
+	left: 103px;
+	right: 400px;
+}
+.pereg2{
+	width: 5px;
+    height: 50px;
+    position: relative;
+    background: #8B4513;
+    bottom: 80px;
+    left: 56px;
+    right: 400px;
+}
+.fundament{
+	width: 161px;
+    height: 20px;
+    position: relative;
+    top: 61px;
+    background: #696969;
+}
+
+.doorknob{
+	width: 10px;
+    height: 5px;
+    position: relative;
+    background: #000000;
+    top: 37px;
+    left: 10px;
+}
+.window{
+    height: 61px;
+    width: 68px;
+    position: relative;
+    bottom: 50px;
+    left: 25px;
+    background: #FFFFFF;
+    border: solid #000000;
+}
+.houseabsolute{
+	height: 400px;
+	width: 350px;
+	position: absolute;
+	background: #20B2AA;
+    right: 10px;
+    bottom: 196px;
+}
+.roofabsolute{
+    width: 140px;
+    height: 80px;
+    position: absolute;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 48px solid chocolate;
+    top: -46px;
+    right: 67px;;
+}		
+.floor2absolute{
+	width: 161px;
+    height: 137px;
+    position: absolute;
+    background: #A52A2A;
+    top: 82px;
+    left: 100px;
+	}
+.floor1absolute{
+    width: 161px;
+    height: 137px;
+    position: absolute;
+    background: #A52A2A;
+    left: 100px;
+    bottom: 44px;
+}
+.window1absolute{
+    width: 122px;
+    height: 50px;
+    position: absolute;
+    background: #FFFFFF;
+    top: 20px;
+    left: 21px;
+}
+.pereg1absolute{
+	width: 5px;
+	height: 50px;
+	position: absolute;
+	background:#8B4513;
+	bottom: 67px;
+	left: 103px;
+	right: 400px;
+}
+.balconyabsolute{
+ 	width: 140px;
+    height: 50px;
+    position: absolute;
+    background: #800000;
+    bottom: 17px;
+    left: 12px;
+}
+.pereg2absolute{
+	width: 5px;
+    height: 50px;
+    position: absolute;
+    background: #8B4513;
+    top: 20px;
+    left: 56px;
+    right: 400px;
+}
+.doorabsolute{
+	width: 47px;
+    height: 76px;
+    background: #D2691E;
+    position: absolute;
+    left: 102px;
+    top: 61px;
+}
+.doorknobabsolute{
+	width: 10px;
+    height: 5px;
+    position: absolute;
+    background: #000000;
+    top: 37px;
+    left: 10px;
+}
+.windowabsolute{
+    height: 61px;
+    width: 68px;
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    background: #FFFFFF;
+    border: solid #000000;
+}
+.fundamentabsolute{
+	width: 161px;
+    height: 20px;
+    position: absolute;
+    top: 137px;
+    background: #696969
+}
+ .housefixed{
+	height: 400px;
+	width: 350px;
+	position: fixed;
+	background: #20B2AA;
+    left: 10px;
+    top: 600px;
+}
+.floor1fixed{
+    width: 161px;
+    height: 137px;
+    position: fixed;
+    background: #A52A2A;
+    margin-left: 91px;
+    margin-top: 215px;
+}
+.floor2fixed{
+	width: 161px;
+    height: 137px;
+    position: fixed;
+    background: #A52A2A;
+    margin-left: 91px;
+    margin-top: 78px;
+	}
+.rooffixed{
+	width: 140px;
+    height: 80px;
+    position: fixed;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 48px solid chocolate;
+    top: 550px;
+    left: 75px;
+}
+.doorfixed{
+	width: 47px;
+    height: 76px;
+    background: #D2691E;
+    position: fixed;
+    margin-left: 102px;
+    margin-top: 61px;
+
+}	
+.window1fixed{
+    width: 122px;
+    height: 50px;
+    position: fixed;
+    background: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 21px;
+}
+.balconyfixed{
+	width: 140px;
+    height: 50px;
+    position: fixed;
+    background: #800000;
+    margin-top: 70px;
+    margin-left: 12px;
+}
+.pereg1fixed{
+	width: 5px;
+	height: 50px;
+	position: fixed;
+	background:#8B4513;
+	margin-top: 20px;
+	margin-left: 103px;
+	margin-right: 400px;
+}
+.pereg2fixed{
+	width: 5px;
+    height: 50px;
+    position: fixed;
+    background: #8B4513;
+    margin-top: 20px;
+    margin-left: 56px;
+    margin-right: 400px;
+}
+.fundamentfixed{
+	width: 161px;
+    height: 20px;
+    position: fixed;
+    margin-top: 136px;
+    background: #696969;
+}
+
+.doorknobfixed{
+	width: 10px;
+    height: 5px;
+    position: fixed;
+    background: #000000;
+    margin-top: 37px;
+    margin-left: 10px;
+}
+.windowfixed{
+    height: 61px;
+    width: 68px;
+    position: fixed;
+    margin-top: 45px;
+    margin-left: 24px;
+    background: #FFFFFF;
+    border: solid #000000;
+}
+/*.ground{
+	width: 800px;
+	height: 150px;
+	position: relative;
+	left: -100px;
+	background: #006400;*/
+}
+/*.chimney{
+	height: 28px;
+    width: 19px;
+    position: relative;
+    bottom: 52px;
+    left: 20px;
+    background: #A0522D;
+}*/
+/*.roofwindow{
+	width: 10px;
+	height: 10px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	top: 10px;
+	left: 60px;
+}*/
+	width: 450px;
+	/*height: 150px;
+*/	/*background: #0000ff;*/
+	/*margin-top: 25px;*/
+	position: relative;
+    border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid red;
+    text-align: justify;
+}
+.cl3{
+	width: 3em;
+  height: 3em;
+  background: orangered;	
+  border-radius: 50%;
+  position: relative;
+	top:110px;
+	left: 30px;
+}
+.cl4{
+	width: 3em;
+  height: 3em;
+  background: orangered;	
+  border-radius: 50%;
+  position: relative;
+	top:110px;
+	left: 30px;
+}
+.cl5{
+	width: 3em;
+  height: 3em;
+  background: orangered;	
+  border-radius: 50%;
+  position: relative;
+	top:110px;
+	left: 30px;
+}
+
+.hhh{
+	height: 1500px;
+	position: relative;
+	background: transparent;
+}
